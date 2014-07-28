@@ -1,0 +1,124 @@
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.page-header {
+    margin-top: 80px;
+}
+
+/* HEADER
+============================================================ */
+
+.banner {
+    background: url("../images/header.jpg") no-repeat 50% 0 fixed; 
+    background-size: cover;
+    height: 640px;  
+    /*margin: 0 auto; */
+    width: 100%; 
+    /*position: relative; */
+    /*padding: 200px 0;*/
+}
+
+.jumbotron {
+    height: 100%;
+    padding: 0;
+}
+
+.jumbotron .container {
+    height: 100%;
+    text-align: center;
+}
+
+.jumbotron .row {
+    margin-top: 100px;
+}
+
+.jumbotron h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    -webkit-font-smoothing: antialiased !important;
+}
+
+.jumbotron h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #efefef;
+    text-shadow: 1px 1px 1px #000;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    -webkit-font-smoothing: antialiased !important;
+}
+
+#overlay {
+    background: rgba(0,0,0,0.5);  /* 50% transparent */
+}
+
+.header-image-lg {
+    height: 409px;
+    width: 548px;
+}
+
+.header-image {
+    height: 512px;
+    width: 307px;
+}
+
+.avatar {
+    height: 72px;
+    width: 72px;
+}
+
+.header-image-demo {
+    height: 668px;
+    width: 402px;
+}
+
+/* FEATURETTES
+============================================================ */
+
+.featurette-divider {
+	margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-heading {
+	line-height: 1;
+	letter-spacing: -1px;
+	font-weight: normal;
+}
+
+.featurette-image {
+    height: 512px;
+    width: 307px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .featurette-heading {
+    margin-top: 160px;
+  }
+
+}
