@@ -281,7 +281,11 @@
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 	
 	  ga('create', 'UA-53281207-2', 'auto');
-	  ga('send', 'pageview');
+	  //ga('send', 'pageview');
+	  ga('send', 'pageview', {
+	    'page': '/index',
+	    'title': 'index'
+	  });
 	</script>
 
 	<!-- jQuery -->
