@@ -41,7 +41,7 @@ body {
 }
 
 .jumbotron h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
@@ -52,7 +52,7 @@ body {
 }
 
 .jumbotron h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
     color: #efefef;
     text-shadow: 1px 1px 1px #000;
