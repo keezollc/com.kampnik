@@ -75,8 +75,12 @@ body {
 
 .header-image-lg {
     margin-top: 60px;
-    width: 476px;
-    height: 482px;
+/*    width: 476px;
+    height: 482px;*/
+
+    width: 464px;
+    height: 552px;
+
 }
 
 .avatar {
