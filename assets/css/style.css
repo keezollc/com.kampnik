@@ -156,7 +156,7 @@
     .kee-type__ruled-header span::before, .kee-type__ruled-header span::after {
       position: absolute;
       top: 0;
-      width: 200px;
+      width: 100px;
       height: 5px;
       border-bottom: 1px solid #ddd;
       content: ""; }
@@ -984,6 +984,17 @@ div {
       top: 0;
       height: 350px;
       content: ""; }
+  .kee-container__keezo {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    flex-direction: row;
+    height: 100%; }
+  .kee-container__center {
+    margin: auto; }
 
 .kee-hero {
   position: relative;
@@ -1093,7 +1104,7 @@ div {
     top: 0;
     right: 0;
     left: 0;
-    margin: 0 3rem; }
+    margin: 0 2rem; }
   .kee-header__links {
     display: flex;
     flex-direction: row;
@@ -1104,6 +1115,8 @@ div {
     padding: 0;
     color: inherit;
     list-style: none; }
+    .kee-header__links--end {
+      justify-content: flex-end; }
   .kee-header__logo {
     display: none;
     align-self: flex-start;
@@ -1144,6 +1157,7 @@ div {
   .kee-header__branding {
     display: flex;
     flex-direction: row;
+    flex-shrink: 0;
     align-items: center; }
   .kee-header__brand-logo {
     align-self: flex-start;
@@ -1155,6 +1169,9 @@ div {
   margin-top: 2rem;
   padding-top: 2rem;
   padding-bottom: 2rem; }
+  .kee-footer--fixed {
+    position: absolute;
+    bottom: 0; }
   .kee-footer--bordered {
     border-top: 1px solid #ccc; }
   .kee-footer__links {
