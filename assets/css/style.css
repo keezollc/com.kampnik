@@ -357,6 +357,18 @@ a {
 div {
   display: block; }
 
+/* stylelint-disable selector-max-universal */
+*,
+::before,
+::after {
+  box-sizing: border-box; }
+
+/* stylelint-enable selector-max-universal */
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 18px; }
+
 /* stylelint-enable selector-max-type */
 .kee-grid-container {
   width: 100%;
@@ -378,7 +390,6 @@ div {
       max-width: 1140px; } }
 
 .kee-grid-container-fluid {
-  width: 100%;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -1088,6 +1099,9 @@ div {
     margin-right: 2rem; }
   .kee-feature__text {
     width: 350px; }
+    @media (max-width: 991px) {
+      .kee-feature__text {
+        text-align: center; } }
 
 .kee-header {
   display: flex;
