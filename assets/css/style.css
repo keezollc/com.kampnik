@@ -1096,7 +1096,11 @@ ul {
   padding-bottom: 2rem; }
   .kee-feature__graphic {
     width: 250px;
-    margin-right: 2rem; }
+    margin-right: 0; }
+  @media (min-width: 768px) {
+    .kee-feature__graphic {
+      margin-right: 2rem; } }
+
   .kee-feature__text {
     width: 350px; }
     @media (max-width: 991px) {
