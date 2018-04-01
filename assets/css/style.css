@@ -72,13 +72,13 @@
   line-height: 1rem; }
 
 .kee-type--quote {
-  font-family: "Noto Sans";
-  font-size: 1.5rem;
+  font-family: "Source Sans Pro";
+  font-size: 0.9rem;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  line-height: 2rem; }
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.5rem; }
 
 .kee-type--subquote {
   font-family: "Noto Sans";
@@ -136,12 +136,12 @@
 
 .kee-type--caption {
   font-family: "Source Sans Pro";
-  font-size: 1rem;
+  font-size: 0.8rem;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   letter-spacing: 0.04em;
-  line-height: 1rem; }
+  line-height: 0.8rem; }
 
 .kee-type--centered {
   text-align: center; }
@@ -1214,12 +1214,12 @@ ul {
     flex-direction: row;
     align-items: center;
     font-family: "Source Sans Pro";
-    font-size: 1rem;
+    font-size: 0.8rem;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-weight: 400;
     letter-spacing: 0.04em;
-    line-height: 1rem;
+    line-height: 0.8rem;
     color: #666; }
 
 .kee-shapes--logo-placeholder {
@@ -1348,3 +1348,77 @@ ul {
       letter-spacing: 0.04em;
       line-height: 1.25rem;
       border-bottom: 1px black dotted; }
+
+.kee-review {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2rem; }
+  .kee-review__avatar {
+    width: 64px;
+    min-width: 64px;
+    height: 64px;
+    margin-right: 1rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: green;
+    text-align: center; }
+    .kee-review__avatar--green {
+      background-color: #4caf50; }
+    .kee-review__avatar--blue {
+      background-color: #2196f3; }
+    .kee-review__avatar--teal {
+      background-color: #00bcd4; }
+    .kee-review__avatar--red {
+      background-color: #f44336; }
+    .kee-review__avatar--orange {
+      background-color: #ff9800; }
+    .kee-review__avatar--purple {
+      background-color: #9c27b0; }
+  .kee-review__initials {
+    font-family: "Noto Sans";
+    font-size: 1.5rem;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.5rem;
+    position: relative;
+    top: calc(64px / 4);
+    /* 25% of parent */
+    color: #fff;
+    font-size: calc(64px / 2);
+    /* 50% of parent */
+    font-weight: bold;
+    line-height: calc(64px / 2);
+    /* 50% of parent */ }
+  .kee-review__review {
+    display: flex;
+    flex-direction: column; }
+  .kee-review__username {
+    font-family: "Noto Sans";
+    font-size: 1rem;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1rem;
+    padding-bottom: .5rem; }
+  .kee-review__message {
+    font-family: "Source Sans Pro";
+    font-size: 0.9rem;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 1.5rem;
+    padding-bottom: .25rem; }
+  .kee-review__source {
+    font-family: "Source Sans Pro";
+    font-size: 0.8rem;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 0.8rem;
+    color: #666; }
