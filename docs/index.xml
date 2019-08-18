@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Kampnik</title>
+    <link>http://www.kampnik.com/docs/</link>
+    <description>Recent content in Docs on Kampnik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.kampnik.com/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FAQ</title>
+      <link>http://www.kampnik.com/docs/faq/</link>
+      <pubDate>Sun, 18 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.kampnik.com/docs/faq/</guid>
+      <description>Frequently asked questions What’s available offline? Campground data itself is stored on the device, so it is always available offline. Obviously any internet resource such as websites would not be available offline. The app uses the device&amp;rsquo;s native map technology so map availability depends on the device. For example for Android, Google Maps allows you to save maps of an area for offline use which would be available in Kampnik.</description>
+    </item>
+    
+    <item>
+      <title>Credits</title>
+      <link>http://www.kampnik.com/docs/credits/</link>
+      <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.kampnik.com/docs/credits/</guid>
+      <description> Credits The Kampnik apps and related websites where built with these resources that deserve attribution for their contribution.
+Photos  Photo by Luca Bravo on Unsplash Photo by Teddy Kelley on Unsplash Photo by Wolfgang Moritzer on Unsplash Photo by Glen Jackson on Unsplash  Graphics  The Noun Project Building Icon by Lil Squid Launcher Icon - Inspired by Michael Cook&amp;rsquo;s work  Tools and Services  This site is built with Hugo This source code is hosted on Github  </description>
+    </item>
+    
+    <item>
+      <title>Help</title>
+      <link>http://www.kampnik.com/docs/help/</link>
+      <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.kampnik.com/docs/help/</guid>
+      <description>Help Map The main view of the app is a map that you can move and zoom in or out. Tap on a campground marker to view it’s detail card. Campground markers are color coded by type: National Park, National Forest, State Park, etc. To see a full list of campground types and their color codes, see the Campground Details section. The number of campgrounds displayed at one time is limited for performance, so if you zoom out too far only campgrounds closest to the center of the map will be displayed.</description>
+    </item>
+    
+  </channel>
+</rss>

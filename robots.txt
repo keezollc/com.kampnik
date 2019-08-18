@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /categories/
+Disallow: /docs/
+Disallow: /ico/
+Disallow: /policies/
+Disallow: /tags/
