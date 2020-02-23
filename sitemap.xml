@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="https://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.kampnik.com/docs/faq/</loc>
+    <loc>https://www.kampnik.com/docs/faq/</loc>
     <lastmod>2019-08-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.kampnik.com/docs/credits/</loc>
+    <loc>https://www.kampnik.com/docs/credits/</loc>
     <lastmod>2018-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.kampnik.com/policies/eula/</loc>
+    <loc>https://www.kampnik.com/policies/eula/</loc>
     <lastmod>2018-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.kampnik.com/docs/help/</loc>
+    <loc>https://www.kampnik.com/docs/help/</loc>
     <lastmod>2018-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.kampnik.com/</loc>
+    <loc>https://www.kampnik.com/</loc>
     <lastmod>2018-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.kampnik.com/policies/privacy/</loc>
+    <loc>https://www.kampnik.com/policies/privacy/</loc>
     <lastmod>2018-04-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.kampnik.com/categories/</loc>
+    <loc>https://www.kampnik.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.kampnik.com/docs/</loc>
+    <loc>https://www.kampnik.com/docs/</loc>
     <lastmod>2019-08-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.kampnik.com/policies/</loc>
+    <loc>https://www.kampnik.com/policies/</loc>
     <lastmod>2018-04-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.kampnik.com/tags/</loc>
+    <loc>https://www.kampnik.com/tags/</loc>
     <priority>0</priority>
   </url>
   
